@@ -27,8 +27,14 @@ font-size: 2em;
 
 .Container1 h1{
     padding: 5%;
-    color: #d8d8d8;
-    text-shadow: 4px 4px 6px rgba(0,0,0,0.35);
+    
+    
+    
+}
+.Container1 h3{
+    padding: 5%;
+    
+    
     
 }
 
@@ -131,14 +137,15 @@ li{
     height:100%; /* Altura da div */
     background-size: cover; /* Redimensiona a imagem para cobrir toda a div */
     background-position: center; /* Centraliza a imagem */
-    transition: background-image 0.5s ease; /* Transição suave para a mudança de imagem de fundo */
+    transition: background-image 0.5s step-start; /* Transição suave para a mudança de imagem de fundo */
     display: flex;
     align-items: center;
     border-radius: 13px 13px 13px 13px ;
     -moz-border-radius: 13px 13px 13px 13px ;
     -webkit-border-radius: 13px 13px 13px 13px ;
-    filter: opacity(90%)
+    
 }
+
 
 .text {
     display: none; /* Inicialmente, esconde todos os textos */

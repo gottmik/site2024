@@ -40,7 +40,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var texts = document.querySelectorAll(".rotating-content .text");
     var index = 0;
-    var interval = setInterval(changeContent, 5000); // Altera o conteúdo a cada 3 segundos
+    var interval = setInterval(changeContent,5000); // Altera o conteúdo a cada 3 segundos
 
     function changeContent() {
         // Oculta o texto atual
