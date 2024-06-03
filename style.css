@@ -20,19 +20,24 @@ body{
     border-radius: 26px 26px 26px 26px ;
 -moz-border-radius: 26px 26px 26px 26px ;
 -webkit-border-radius: 26px 26px 26px 26px ;
-font-size: 2em;
+font-size: 1.5em;
 
     
 }
 
 .Container1 h1{
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin: 0;
     
     
     
 }
 .Container1 h3{
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin: 0;
+    margin-bottom: 20%;
     
     
     
@@ -140,7 +145,7 @@ li{
     background-position: center; /* Centraliza a imagem */
     transition: background-image 0.5s step-start; /* Transição suave para a mudança de imagem de fundo */
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     border-radius: 13px 13px 13px 13px ;
     -moz-border-radius: 13px 13px 13px 13px ;
     -webkit-border-radius: 13px 13px 13px 13px ;
