@@ -3,6 +3,7 @@
     --main-bg-color-body:white;
     --main-text-color: #333333;
     --main-padding: 16px;
+    --main-corzinha:#8b2929;
 }
 
 body{
@@ -15,6 +16,8 @@ body{
   font-style: normal;
   color: rgb(54, 54, 54);
   background-color: var(--main-bg-color-body);
+  max-width: 650px;
+  margin:auto;
   
 }
 
@@ -148,7 +151,7 @@ li{
 
 .divDaImagem{
     width: 100%;
-    height: 400px;
+    height: auto;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -165,7 +168,7 @@ li{
 
 .divDoText h1, h2{
     margin: 20px;
-    line-height: 1.7rem;
+    line-height: 1.4rem;
 } 
 h2{
     font-weight: 300;
